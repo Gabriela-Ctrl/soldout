@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_ca.css">
+    <script src="https://kit.fontawesome.com/23655c98f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <div class="links">
+      <a href="#">Produtos</a>
+      <a href="#">Lookbook</a>
+      <a href="#">Sobre</a>
+    </div>
+
+    <div class="mobile-menu-icon">
+      <button onclick="menuShow()"><i class="fa-solid fa-bars fa-xl"></i></button>
+    </div>
+    
+    <div class="mobile-menu">
+      <li class="nav-item"><a href="#" class="nav-link">Produtos</a></li>
+      <div class="nav-itemm2">
+        <li class="nav-item"><a href="#" id="nav-link2">Lookbook</a></li>
+      </div>
+      <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+    </div>
+
+      <div class="logo">
+        <a href="home.html"><img src="Assets/logo.png" alt="Logo"></a>
+      </div>
+      <div class="user-actions">
+        <a href="#"><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+        <a href="cadastro.html"><i class="fa-solid fa-circle-user fa-xl"></i></a>
+      </div>
+    </header>
+ 
+      <!-- _________________________________________________________________________ -->
+      <!-- Main -->
+
+      <main>
+        <div class="cadastro">
+            <h3>Cadastre-se</h3>
+            <form action="https://api.sheetmonkey.io/form/uUoSrCzvr8YxqFQBSdSqBz" method="post" class="cadastrar">
+
+                <label for="email">
+                    <span>E-mail</span>
+                    <input type="text" id="email" name="email">
+                </label>
+                <label for="senha">
+                    <span>Criar senha</span>
+                    <input type="text" name="senha">
+                </label>
+            
+                <label for="confirmar">
+                    <span>Confirmar senha</span>
+                    <input type="text" name="senha">
+                </label>
+                <label for="nome">
+                    <span>Nome completo</span>
+                    <input type="text" name="username" placeholder="Nome" id="username">
+                </label>
+            
+                <label for="cpf">
+                    <span>CPF</span>
+                    <input type="text" id="cpf" name="cpf">
+                </label>
+                <label for="telefone">
+                    <span>Telefone</span>
+                    <input type="text" id="telefone" name="telefone">
+                </label> 
+                <div id="botao">
+                <button type="submit">Enviar</button>
+            </div>
+                  </form>
+        </div>
+        
+        <div class="pagamentos">
+            <h3>Pagamentos</h3>
+            <div id="botao">
+                 <!-- <input type="submit" value="Cartão">
+                <br>
+                <input type="submit" value="Boleto"> -->
+                <!-- <button type="submit">Cartão</button> -->
+                <i class="fa-solid fa-credit-card fa-2xl" style="color: #E4A951;"></i>
+                <br>
+                <!-- <button type="submit">Boleto</button></div> -->
+                <i class="fa-brands fa-cc-amazon-pay fa-2xl" style="color: #333;"></i>
+              </div>
+        </div>
+    </main>
+
+
+
+
+      <!-- _________________________________________________________________________ -->
+      <!-- Footer -->
+
+      <footer>
+        <div class="footer-section">
+          <p>SOLD OUT LOCAL STUDIOS © 2022</p>
+          <p>CNPJ: 27.285.100/0001-00</p>
+          <p>Santo André - SP</p>
+        </div>
+        <div class="footer-section image-section">
+            <img src="Assets/logo2.png" alt="Imagem 1">
+            <i class="fa-brands fa-instagram fa-2xl"></i>
+        </div>
+        <div class="footer-section direita">
+          <p>Atendimento</p>
+          <p>(11) 99763-5885</p>
+        </div>
+      </footer>
+   
+      <script src="home.js"></script>
+</body>
+</html>
