@@ -21,6 +21,7 @@ header {
     background-color: #d9d9d9;
     position: sticky;
     top: 0;
+    z-index: 9;
   }
   
   .logo {
@@ -146,11 +147,17 @@ header {
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
+    transition: transform 0.5s;
+  }
+
+  .division2:hover {
+    transform: translateY(-10px);
   }
   
   .produtos img {
     max-width: 75%;
-    height: auto;
+    height: 219px;
+    width: 218;
     margin-bottom: 10px;
 
   }
