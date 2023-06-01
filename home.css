@@ -183,18 +183,20 @@ header {
   }
 
   .container-tit {
-    max-width: 200px;
+    max-width: 600px;
     margin: 0 auto;
   }
 
   .titulo {
     text-align: center;
+    color: #c33d3d;
     margin-bottom: 50px;
     border-bottom:  3px solid #c33d3d;
   }
 
   .titulo2 {
     text-align: center;
+    color: #c33d3d;
     margin-bottom: 50px;
     margin-top: 40px;
     border-bottom:  3px solid #c33d3d;
@@ -319,7 +321,7 @@ header {
       justify-content: space-around;
       align-items: center;
       position: absolute;
-      top: 9vh;
+      top: 7vh;
       background-color: #cccbcb;
       left: 0;
       width: 100vw;
