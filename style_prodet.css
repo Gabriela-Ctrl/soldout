@@ -97,7 +97,7 @@ header {
 
 .btn {
     display: inline-block;
-    background: #ff523b;
+    background: #C33D3D;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
@@ -158,10 +158,6 @@ header {
 
 .col4 p{
     font-size: 14px;
-}
-
-.rating .fa, .fa-solid, .fa-regular {
-    color: #ff523b;
 }
 
 .title {
@@ -510,7 +506,7 @@ p{
 
 .btn {
     display: inline-block;
-    background: #ff523b;
+    background: #C33D3D;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
@@ -566,7 +562,6 @@ p{
 }
 
 .rating .fa, .fa-solid, .fa-regular {
-    color: #ff523b;
 }
 
 .title {
@@ -719,7 +714,7 @@ select:focus {
     padding-left: 10px;
     font-size: 20px;
     margin-right: 10px;
-    border: 1px solid #ff523b;
+    border: 1px solid #C33D3D;
 }
 input:focus {
     outline: none;
