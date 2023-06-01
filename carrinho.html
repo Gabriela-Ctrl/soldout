@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sold Out</title>
+    <link rel="stylesheet" href="carrinho.css">
+    <script src="https://kit.fontawesome.com/23655c98f8.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="links">
+        <a href="produtos.html">Produtos</a>
+        <a href="#">Lookbook</a>
+        <a href="#">Sobre</a>
+      </div>
+
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><i class="fa-solid fa-bars fa-xl"></i></button>
+      </div>
+      
+      <div class="mobile-menu">
+        <li class="nav-item"><a href="produtos.html" class="nav-link">Produtos</a></li>
+        <div class="nav-itemm2">
+          <li class="nav-item"><a href="#" id="nav-link2">Lookbook</a></li>
+        </div>
+        <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+      </div>
+
+        <div class="logo">
+          <a href="home.html"><img src="Assets/logo.png" alt="Logo"></a>
+        </div>
+        <div class="user-actions">
+          <a href="#"><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+          <a href="cadastro.html"><i class="fa-solid fa-circle-user fa-xl"></i></a>
+        </div>
+
+        
+        
+      </header>
+
+      <!-- Pagamento produto -->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Produtos</th>
+                <th>Quantidade</th>
+                <th>Subtotal</th>
+            </tr>
+            <!-- Produtos 1° -->
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="Assets/puffer3.png">
+                        <div>
+                            <p>Puffer jacket Beige</p>
+                            <small>Preço: R$349,90</small>
+                            <br>
+                            <a href="">Remover</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>R$349,90</td>
+            </tr>
+            <!-- 2°Produto -->
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="Assets/camisa soldout.png">
+                        <div>
+                            <p>Green Hoddie</p>
+                            <small>Preço: R$200,00</small>
+                            <br>
+                            <a href="">Remover</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>R$200,00</td>
+            </tr>
+            <!-- 3°produto -->
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="Assets/bone azul.png">
+                        <div>
+                            <p>Blue Sold cap</p>
+                            <small>Preço: R$129,90</small>
+                            <br>
+                            <a href="">Remover</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>R$129,90</td>
+            </tr>
+
+        </table>
+   <!-- Métodos de pagamentos e subtotais -->
+        <div class="total-price">
+            <!-- Métodos de pagamentos -->
+            <div class="container-pag">
+                <h4>Formas de pagamento</h4>
+                <div class="parte">
+                    <input type="radio" name="metodo" value="pix">
+                    <span class="iconify" data-icon="simple-icons:pix" style="color:
+                    #00b7a9;" data-width="36" data-height="36"></span>
+                    <label for="pix">Pix</label>
+                </div>
+                <div class="parte">
+                    <input type="radio" name="metodo" value="cartao">
+                    <span class="iconify" data-icon="ph:credit-card-fill" style="color:
+                    #d4af37;" data-width="36" data-height="36"></span>
+                    <label for="cartao">Cartão</label>
+                </div>
+                <div class="parte">
+                    <input type="radio" name="metodo" value="boleto">
+                    <span class="iconify" data-icon="icon-park-solid:id-card" style="color:
+                    #333;" data-width="36" data-height="36"></span>
+                    <label for="boleto">Boleto</label>
+                </div>
+            </div>
+            <!-- Subtotais -->
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>R$679,80</td>
+                </tr>
+                <tr>
+                    <td>Impostos</td>
+                    <td>R$81,57</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>R$761,37</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+            <!-- Footer -->
+
+            <footer>
+                <div class="footer-section">
+                  <p>SOLD OUT LOCAL STUDIOS © 2022</p>
+                  <p>CNPJ: 27.285.100/0001-00</p>
+                  <p>Santo André - SP</p>
+                </div>
+                <div class="footer-section image-section">
+                    <img src="Assets/logo2.png " alt="Imagem 1">
+                    <a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                </div>
+                <div class="footer-section direita">
+                  <p>Atendimento</p>
+                  <p>(11) 99763-5885</p>
+                </div>
+              </footer>
+              
+        <script src="home.js"></script>
+            
+        </body>
+        </html>
