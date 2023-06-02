@@ -97,32 +97,8 @@ header {
 }
 
 .form-header {
-    margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
-}
-
-.login-button {
-    display: flex;
-    align-items: center;
-}
-
-.login-button a {
-    border: none;
-    background-color: #c33d3d;
-    padding: 0.4rem 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.login-button button:hover {
-    background-color: #832a2a;
-}
-
-.login-button button a {
-    text-decoration: none;
-    font-weight: 500;
-    color: #fff;
 }
 
 .form-header h1::after {
@@ -141,17 +117,23 @@ header {
     color: black;
 }
 
+.title a:hover {
+    color: #c33d3d;
+}
+
+
 .input-group {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 1rem 0;
+    padding: 9rem 0;
+    
 }
 
 .input-box {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.1rem;
+    padding-bottom: 1.1rem;
 }
 
 .input-box input {
