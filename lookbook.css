@@ -63,80 +63,57 @@ header {
 /* main __________________________________________________________________ */
 
 .slider {
-  width: 50%;  /* Define a largura do contêiner do slider */
-  height: 500px; /* Define a altura do contêiner do slider */
-  overflow: hidden; /* Esconde qualquer conteúdo que exceda as dimensões do slider */
-  position: relative; /* Define o contexto de posicionamento para os elementos filhos */
-  margin: auto; /* Centraliza os slides */
-  margin-top: 50px; /* Afasta o container do topo */
-  margin-bottom: 50px;
+  width: 80%;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto;
 }
 
 .slide {
-  width: 100%; /* Define a largura do slide para ocupar todo o contêiner do slider */
-  height: 100%; /* Define a altura do slide para ocupar todo o contêiner do slider */
-  position: absolute; /* Permite posicionar os slides dentro do contêiner */
-  opacity: 0; /* Define a opacidade inicial do slide como transparente */
-  transition: opacity 0.5s ease-in-out; /* Adiciona uma transição suave para a propriedade de opacidade */
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 9;
+  margin-left: 5%;
 }
 
 .slide img {
-  width: 100%; /* Faz com que a imagem ocupe toda a largura do slide */
-  height: 100%; /* Faz com que a imagem ocupe toda a altura do slide */
-  object-fit: cover; /* Redimensiona a imagem para preencher o espaço disponível no slide */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .slide.active {
-  opacity: 1; /* Define a opacidade do slide ativo como opaco (visível) */
+  opacity: 1;
 }
 
-.slide:nth-child(1) {
-  animation: fade 6s infinite; /* Adiciona a animação 'fade' ao primeiro slide */
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 60px;
+  color: #333;
+  cursor: pointer;
 }
 
-.slide:nth-child(2) {
-  animation: fade 6s infinite 2s; /* Adiciona a animação 'fade' ao segundo slide com um atraso de 2 segundos */
+.prev-button {
+  left: 10px;
 }
 
-.slide:nth-child(3) {
-  animation: fade 6s infinite 4s; /* Adiciona a animação 'fade' ao terceiro slide com um atraso de 4 segundos */
-}
-.slide:nth-child(4) {
-  animation: fade 6s infinite 4s; 
-}
-.slide:nth-child(5) {
-  animation: fade 6s infinite 4s; 
-}
-.slide:nth-child(6) {
-  animation: fade 6s infinite 4s; 
-}
-.slide:nth-child(7) {
-  animation: fade 6s infinite 4s; 
-}
-.slide:nth-child(8) {
-  animation: fade 6s infinite 4s; 
-}
-.slide:nth-child(9) {
-  animation: fade 6s infinite 4s; 
-}
-.slide:nth-child(10) {
-  animation: fade 6s infinite 4s; 
+.next-button {
+  right: 10px;
 }
 
-@keyframes fade {
-  0% {
-    opacity: 0; /* Define a opacidade inicial da animação como transparente */
-  }
-  25% {
-    opacity: 1; /* Define a opacidade intermediária da animação como opaco (visível) */
-  }
-  75% {
-    opacity: 1; /* Define a opacidade intermediária da animação como opaco (visível) */
-  }
-  100% {
-    opacity: 0; /* Define a opacidade final da animação como transparente */
-  }
+.controls {
+  z-index: 9;
 }
+
 /* footer __________________________________________________________ */
 footer {
     background-color: black;
