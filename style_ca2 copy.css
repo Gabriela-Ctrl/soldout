@@ -82,7 +82,6 @@ header {
 }
 
 .form-image img {
-    width: 38rem;
     height: 80vh;
 }
 
@@ -97,11 +96,24 @@ header {
 }
 
 .form-header {
+    margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
 }
 
-.form-header h1::after {
+.cadastroafter::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #c33d3d;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+.afterentrar::after {
     content: '';
     display: block;
     width: 5rem;
@@ -116,24 +128,24 @@ header {
     text-decoration: none;
     color: black;
 }
-
-.title a:hover {
-    color: #c33d3d;
+.titleentrar {
+    margin-left: 150px;
 }
-
+.titleentrar:hover {
+    color: #832a2a;
+}
 
 .input-group {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
-    padding: 9rem 0;
-    
+    padding: 1rem 0;
 }
 
 .input-box {
     display: flex;
     flex-direction: column;
-    padding-bottom: 1.1rem;
+    margin-bottom: 1.1rem;
 }
 
 .input-box input {
@@ -231,6 +243,11 @@ footer {
     align-items: flex-end;
 }  
 
+@media screen and (max-width: 1420px) {
+    .form-image img {
+        max-width: 67vh;
+    }
+}
 @media screen and (max-width: 1330px) {
     .form-image {
         display: none;
@@ -246,26 +263,176 @@ footer {
 @media screen and (max-width: 1064px) {
     .container {
         width: 90%;
-        height: auto;
     }
-    .input-group {
-        flex-direction: column;
-        z-index: 5;
-        padding-right: 5rem;
-        max-height: 10rem;
-        overflow-y: scroll;
-        flex-wrap: nowrap;
-    }
-    .gender-inputs {
-        margin-top: 2rem;
-    }
-    .gender-group {
-        flex-direction: column;
-    }
-    .gender-title h6 {
-        margin: 0;
-    }
-    .gender-input {
-        margin-top: 0.5rem;
-    }
+    
 }
+
+@media screen and (max-width: 990px) {
+    
+  
+    .logo {
+      padding-right: 10px;
+    }
+  
+    .links {
+      display: none;
+    }
+
+    .mobile-menu-icon {
+      display: block;
+      color: black;
+    }
+
+    .mobile-menu-icon button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 10px 20px;
+      font-size: 18px;
+    }
+
+    .mobile-menu ul {
+      display: flex;
+      text-align: center;
+      padding-bottom: 1rem;
+      
+    }
+    .icon-mobile {
+      color: black;
+      align-items: center;
+    }
+    .nav-item a {
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+    }
+
+      .mobile-menu a:hover {
+        color: white;
+      }
+
+    .nav-itemm2 {
+      padding-right: 50px;
+    }
+
+    mobile menu #nav-link {
+      padding-left: 550px;
+    }
+    .mobile-menu .nav-item {
+      display: block;
+    }
+
+    .mobile-menu .user-actions {
+      display: block;
+      padding: 1rem 2rem;
+    }
+    .open {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: absolute;
+      top: 9vh;
+      background-color: #cccbcb;
+      left: 0;
+      width: 100vw;
+      height: 10vw;
+      color: black;
+    }
+  }
+  @media screen and (max-width: 730px) {
+    
+    .mobile-menu-icon {
+      display: block;
+      color: black;
+    }
+
+    .mobile-menu-icon button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 10px 20px;
+      font-size: 18px;
+    }
+
+    .mobile-menu ul {
+      display: flex;
+      text-align: center;
+      padding-bottom: 1rem;
+      
+    }
+    .icon-mobile {
+      color: black;
+      align-items: center;
+    }
+    .nav-item a {
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+    }
+
+      .mobile-menu a:hover {
+        color: white;
+      }
+
+    .nav-itemm2 {
+      padding-right: 50px;
+    }
+
+    mobile menu #nav-link {
+      padding-left: 550px;
+    }
+    .mobile-menu .nav-item {
+      display: block;
+    }
+
+    .mobile-menu .user-actions {
+      display: block;
+      padding: 1rem 2rem;
+    }
+    .open {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: absolute;
+      top: 9vh;
+      background-color: #cccbcb;
+      left: 0;
+      width: 100vw;
+      height: 10vw;
+      color: black;
+    }
+    
+    .division {
+        flex-basis: 100%;
+      }
+      .borda {
+        border-right: none;
+        border-left: none;
+        border-top:2px solid #666;
+        border-bottom:2px solid #666;
+      }
+      .division2 {
+        flex-basis: 100%;
+      }
+      .footer-section {
+        flex-basis: 100%;
+      }
+    
+      .image-container {
+        flex-direction: column;
+        align-items: center;
+      }
+      .footer-section {
+        flex-basis: 100%;
+      }
+      .footer-section p {
+        text-align: center;
+      }
+      .direita {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  
+  }
+  
