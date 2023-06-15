@@ -162,7 +162,6 @@ header {
     width: auto;
     height: auto;
     margin-bottom: 10px;
-
   }
 
   .preço {
@@ -212,7 +211,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    
+    margin-top: 30px;
   }
   
   .footer-section {
@@ -321,7 +320,7 @@ header {
       justify-content: space-around;
       align-items: center;
       position: absolute;
-      top: 7vh;
+      top: 7.5vh;
       background-color: #cccbcb;
       left: 0;
       width: 100vw;
@@ -384,7 +383,7 @@ header {
       justify-content: space-around;
       align-items: center;
       position: absolute;
-      top: 9vh;
+      top: 7.5vh;
       background-color: #cccbcb;
       left: 0;
       width: 100vw;
