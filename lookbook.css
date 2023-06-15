@@ -63,7 +63,7 @@ header {
 /* main __________________________________________________________________ */
 
 .slider {
-  width: 80%;
+  width: 700px;
   height: 600px;
   overflow: hidden;
   position: relative;
