@@ -76,13 +76,10 @@ header {
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #fde3a7d7;
-    padding: 1rem;
 }
 
 .form-image img {
-    height: 80vh;
+  width: 100%;
 }
 
 .form {
@@ -244,11 +241,6 @@ footer {
     align-items: flex-end;
 }  
 
-@media screen and (max-width: 1420px) {
-    .form-image img {
-        max-width: 67vh;
-    }
-}
 @media screen and (max-width: 1330px) {
     .form-image {
         display: none;

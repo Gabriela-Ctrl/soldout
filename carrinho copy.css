@@ -10,7 +10,7 @@
 }
 body {
     /* height: 300vh; */
-    background-color: #fff;
+    background-color: #ecebe9;
 
 }
 
@@ -84,11 +84,14 @@ header {
     overflow: hidden;
     border: 1px silver;
     margin-bottom: 20px;
+    transition: transform 0.5s;
+
   }
   .product:hover{
     border: none;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     transform: scale(1.01);
+    background-color: #f1efef;
   }
   .product > img {
     width: 200px;
@@ -111,16 +114,16 @@ header {
     bottom: 20px;
     right: 20px;
     padding: 10px 25px;
-    background-color: green;
+    background-color: #c33d3d;
     color: white;
     cursor: pointer;
     border-radius: 5px;
   }
   .product-remove:hover {
     background-color: white;
-    color: green;
+    color: #c33d3d;
     font-weight: 600;
-    border: 1px solid green;
+    border: 1px solid #c33d3d;
   }
   .product-quantify > input{
     width: 40px;
@@ -149,12 +152,22 @@ header {
     text-align: center;
     height: 40px;
     line-height: 40px;
-    background-color: tomato;
+    background-color: black;
     color: white;
     text-decoration: none;
   }
   .cart-total a:hover {
-    background-color: red;
+    background-color: white;
+    color: black;
+    border: 1px solid #c33d3d;
+  }
+
+  .total {
+    color: #c33d3d;
+  }
+
+  hr {
+    border-color: #c33d3d;
   }
     /* _______________________ */
   /* Footer */

@@ -76,13 +76,10 @@ header {
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #fde3a7d7;
-    padding: 1rem;
 }
 
 .form-image img {
-    height: 80vh;
+  width: 100%;
 }
 
 .form {
