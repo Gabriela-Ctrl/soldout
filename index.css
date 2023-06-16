@@ -13,21 +13,23 @@ body {
 
 }
 
-header {
+#navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 50px;
+    padding: 10px;
     background-color: #d9d9d9;
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100vw;
     z-index: 9;
+    transition: top 0.4s;
   }
 
   
   
   .logo {
-    padding-right: 230px;
+    padding-right: 220px;
   }
   .logo img {
     height: 40px;
@@ -57,12 +59,20 @@ header {
     text-decoration: underline;
   }
 
+  .fa-circle-user:before {
+    margin-right: 50px;
+  }
+
   .mobile-menu-icon {
     display: none;
   }
 
   .mobile-menu {
     display: none ;
+  }
+
+  .spanprod {
+    padding-left: 30px;
   }
 
 
@@ -76,6 +86,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 62px;
   }
   
   .content {
@@ -262,7 +273,7 @@ header {
     
   
     .logo {
-      padding-right: 10px;
+      padding-right: 0px;
     }
   
     .links {
@@ -328,6 +339,10 @@ header {
       width: 100vw;
       height: 10vw;
       color: black;
+    }
+
+    .fa-circle-user:before {
+      margin-right: 25px;
     }
   }
   @media screen and (max-width: 730px) {
