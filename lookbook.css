@@ -68,6 +68,7 @@ header {
   overflow: hidden;
   position: relative;
   margin: 20px auto;
+  z-index: 8;
 }
 
 .slide {
@@ -181,6 +182,8 @@ footer {
         flex: 1 1 25%;
     }
 }
+
+
 /* Responsividade header e footer */
 
 @media screen and (max-width: 990px) {
@@ -247,12 +250,13 @@ footer {
       justify-content: space-around;
       align-items: center;
       position: absolute;
-      top: 9vh;
+      top: 7vh;
       background-color: #cccbcb;
       left: 0;
       width: 100vw;
       height: 10vw;
       color: black;
+      z-index: 9;
     }
   }
   @media screen and (max-width: 730px) {
@@ -310,12 +314,13 @@ footer {
       justify-content: space-around;
       align-items: center;
       position: absolute;
-      top: 9vh;
+      top: 7.1vh;
       background-color: #cccbcb;
       left: 0;
       width: 100vw;
       height: 10vw;
       color: black;
+      z-index: 9;
     }
     
     .division {
@@ -350,5 +355,9 @@ footer {
         justify-content: center;
         align-items: center;
     }  
+
+    .slider {
+      width: auto;
+    }
   }
   

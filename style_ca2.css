@@ -80,6 +80,7 @@ header {
 
 .form-image img {
   width: 100%;
+  object-fit: cover;
 }
 
 .form {
@@ -226,7 +227,7 @@ footer {
     align-items: flex-end;
 }  
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 1300px) {
     .form-image {
         display: none;
     }
@@ -246,22 +247,15 @@ footer {
     .input-group {
         flex-direction: column;
         z-index: 5;
-        padding-right: 5rem;
-        max-height: 10rem;
+        padding-right: 17px;
+        max-height: 50vh;
         overflow-y: scroll;
         flex-wrap: nowrap;
     }
-    .gender-inputs {
-        margin-top: 2rem;
-    }
-    .gender-group {
-        flex-direction: column;
-    }
-    .gender-title h6 {
-        margin: 0;
-    }
-    .gender-input {
-        margin-top: 0.5rem;
+
+    
+    .titleentrar {
+      margin-right: 100px;
     }
 }
 
@@ -329,7 +323,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    top: 7.5vh;
+    top: 7.4vh;
     background-color: #cccbcb;
     left: 0;
     width: 100vw;
@@ -392,7 +386,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    top: 7.5vh;
+    top: 7.4vh;
     background-color: #cccbcb;
     left: 0;
     width: 100vw;

@@ -80,6 +80,7 @@ header {
 
 .form-image img {
   width: 100%;
+  object-fit: cover;
 }
 
 .form {
@@ -255,7 +256,7 @@ footer {
 
 @media screen and (max-width: 1064px) {
     .container {
-        width: 90%;
+        width: 80%;
     }
     
 }
@@ -324,7 +325,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    top: 7.5vh;
+    top: 7.4vh;
     background-color: #cccbcb;
     left: 0;
     width: 100vw;
@@ -387,7 +388,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    top: 7.5vh;
+    top: 7.4vh;
     background-color: #cccbcb;
     left: 0;
     width: 100vw;
@@ -427,4 +428,18 @@ footer {
       justify-content: center;
       align-items: center;
   }  
+}
+
+@media screen and (max-width: 640px) {
+  .title {
+    font-size: 14.8px;
+  }
+
+  .titleentrar {
+    margin-left: 110px;
+  }
+
+  .cadastroafter::after {
+    margin-left: 110px;
+  }
 }
