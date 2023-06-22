@@ -52,6 +52,7 @@ body {
     padding: 0 3px;
     color: #333;
     text-decoration: none;
+    
   }
   
   .user-actions a:hover {
@@ -273,7 +274,8 @@ body {
     
   
     .logo {
-      padding-right: 10px;
+      padding-right: 0px;
+      padding-left: 14px;
     }
   
     .links {
@@ -440,3 +442,20 @@ body {
     }  
   }
   
+  @media screen and (max-width: 497px) {
+    .fa-circle-user:before {
+      margin-right: 7px;
+    }
+
+    .mobile-menu-icon button {
+      padding: 10px 10px;
+    }
+
+    .fa-cart-shopping:before {
+      font-size: 20px;
+    }
+
+    .fa-circle-user:before {
+      font-size: 20px;
+    }
+  }

@@ -416,3 +416,21 @@ header {
       max-width: 95%;
     }
   }
+
+  @media screen and (max-width: 497px) {
+    .fa-circle-user:before {
+      margin-right: 7px;
+    }
+
+    .mobile-menu-icon button {
+      padding: 10px 10px;
+    }
+
+    .fa-cart-shopping:before {
+      font-size: 20px;
+    }
+
+    .fa-circle-user:before {
+      font-size: 20px;
+    }
+  }
