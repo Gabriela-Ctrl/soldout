@@ -60,7 +60,7 @@ body {
   }
 
   .fa-circle-user:before {
-    margin-right: 50px;
+    margin-right: 60px;
   }
 
   .mobile-menu-icon {
@@ -72,7 +72,7 @@ body {
   }
 
   .spanprod {
-    padding-left: 30px;
+    padding-left: 41px;
   }
 
 
@@ -273,7 +273,7 @@ body {
     
   
     .logo {
-      padding-right: 0px;
+      padding-right: 10px;
     }
   
     .links {
@@ -289,7 +289,7 @@ body {
       background-color: transparent;
       border: none;
       cursor: pointer;
-      padding: 10px 20px;
+      padding: 10px 42px;
       font-size: 18px;
     }
 
@@ -341,9 +341,7 @@ body {
       color: black;
     }
 
-    .fa-circle-user:before {
-      margin-right: 25px;
-    }
+    
   }
   @media screen and (max-width: 730px) {
     
@@ -356,7 +354,7 @@ body {
       background-color: transparent;
       border: none;
       cursor: pointer;
-      padding: 10px 20px;
+      padding: 10px 42px;
       font-size: 18px;
     }
 
@@ -381,7 +379,7 @@ body {
       }
 
     .nav-itemm2 {
-      padding-right: 50px;
+      padding-right: 20px;
     }
 
     mobile menu #nav-link {

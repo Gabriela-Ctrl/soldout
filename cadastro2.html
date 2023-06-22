@@ -86,6 +86,17 @@
                       <button><a href="index.html">Continuar</a> </button>
                   </div>
               </form>
+
+              <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                 document.getElementById("myForm").addEventListener("submit", function(event) {
+                  event.preventDefault(); // Impede o envio padrão do formulário
+                  window.location.href = "index.html"; //Redireciona para a página
+                 });
+                 });
+            </script>
+
+          
           </div>
       </div>
     </div>

@@ -60,7 +60,7 @@ body {
 }
 
 .fa-circle-user:before {
-  margin-right: 50px;
+  margin-right: 60px;
 }
 
 .mobile-menu-icon {
@@ -72,7 +72,7 @@ body {
 }
 
 .spanprod {
-  padding-left: 30px;
+  padding-left: 41px;
 }
   
   /* -------------------------------------- */
@@ -163,6 +163,11 @@ select:focus {
   text-align: center;
   line-height: 40px;
   cursor: pointer;
+}
+
+.page-btn span a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .page-btn span:hover {
@@ -267,7 +272,7 @@ mobile menu #nav-link {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 10px 42px;
     font-size: 18px;
   }
 
@@ -330,7 +335,7 @@ mobile menu #nav-link {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 10px 42px;
     font-size: 18px;
   }
 
@@ -355,7 +360,7 @@ mobile menu #nav-link {
     }
 
   .nav-itemm2 {
-    padding-right: 50px;
+    padding-right: 20px;
   }
 
   mobile menu #nav-link {
